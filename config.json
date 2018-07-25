@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+	  "hostname": "qrl.herominers.com",
+      "port": 10370,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 100,
+      "username": "Q0106002c7fafa78ed8cf6faabb62ab9d84449bf83ee1f556c34f959a173cc9c3d8bc2fec798158",
+      "password": "qrl_herominers",
+      "keepAlive": true,
+      "algo": "cryptonight/1",
+      "blob_type": "cryptonote",
+      "default": true
+    }
+  ],
+  "listeningPorts": [
+    {
+      "port": 8080,
+      "ssl": false,
+      "diff": 5000
+    },
+    {
+      "port": 8443,
+      "ssl": true,
+      "diff": 5000
+    },
+    {
+      "port": 3333,
+      "ssl": false,
+      "diff": 10000
+    }
+  ],
+  "bindAddress": "0.0.0.0",
+  "developerShare": 0,
+  "daemonAddress": "127.0.0.1:18081",
+  "accessControl": {
+    "enabled": false,
+    "controlFile": "accessControl.json"
+  },
+  "httpEnable": false,
+  "httpAddress": "127.0.0.1",
+  "httpPort": "8081",
+  "httpUser": "",
+  "httpPass": "",
+  "minerInactivityTime": "120",
+  "keepOfflineMiners": 0,
+  "refreshTime": 30,
+  "theme": "light",
+  "moDashboard": true,
+  "coinSettings": {
+    "xmr":{
+      "minDiff": 100,
+      "maxDiff": 300000,
+      "shareTargetTime": 15
+    }
+  }
+}
