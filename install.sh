@@ -16,7 +16,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | b
 source ~/.nvm/nvm.sh
 nvm install v8.11.3
 nvm alias default v8.11.3
-cd ~/xmr-node-proxy
+cd ~/xmr-node-proxy-qrl
 npm install || exit 1
 npm install -g pm2
 cp config_example.json config.json
