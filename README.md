@@ -5,7 +5,7 @@ This repo only supports Quantum Resistant Ledger (QRL) - https://qrl.herominers.
 
 
 
-![switch](https://images2.imgbox.com/8b/86/wjIPsdOG_o.png)
+![switch](https://images2.imgbox.com/44/76/pSDrQLQd_o.png)
 
 
 
